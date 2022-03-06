@@ -14,14 +14,20 @@
 
 ### Модели
 
-**[Instance Segmentation](https://colab.research.google.com/github/Lednik7/nto-ai-text-recognition/blob/main/train/detectron2_segmentation_latest.ipynb)**
+**Instance Segmentation**
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Lednik7/nto-ai-text-recognition/blob/main/train/detectron2_segmentation_latest.ipynb)
+
 - модель [X101-FPN](https://github.com/facebookresearch/detectron2/blob/main/MODEL_ZOO.md#coco-instance-segmentation-baselines-with-mask-r-cnn) из зоопарка моделей detectron2 + аугментации + высокое разрешение
 
-**[Optical Character Recognition (OCR)](https://colab.research.google.com/github/Lednik7/nto-ai-text-recognition/blob/main/train/ocr_model.ipynb)**
+**Optical Character Recognition (OCR)**
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Lednik7/nto-ai-text-recognition/blob/main/train/ocr_model.ipynb)
+
 - архитектура CRNN с бекбоном Resnet-34, предобученным на топ 1 модели соревнования [Digital Peter](https://github.com/sberbank-ai/digital_peter_aij2020) + аугментации
 
-**[Beam Search](https://colab.research.google.com/github/Lednik7/nto-ai-text-recognition/blob/main/dataset/make_kenlm_dataset_latest.ipynb)**
-- модель KenLM, обученная на данных сорвенования [Feedback](https://www.kaggle.com/c/feedback-prize-2021/data ) + задачи с тектом из Решу ОГЭ/ЕГЭ, а также [CTCDecoder](https://github.com/parlance/ctcdecode)
+**Beam Search**
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Lednik7/nto-ai-text-recognition/blob/main/dataset/make_kenlm_dataset_latest.ipynb)
+
+- модель [KenLM](https://github.com/kpu/kenlm), обученная на данных сорвенования [Feedback](https://www.kaggle.com/c/feedback-prize-2021/data ) + задачи с тектом из Решу ОГЭ/ЕГЭ, а также [CTCDecoder](https://github.com/parlance/ctcdecode)
 
 ### Ресурсы & Submit
 ---
