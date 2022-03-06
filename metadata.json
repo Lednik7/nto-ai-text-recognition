@@ -1,0 +1,4 @@
+{
+    "image": "cene655/ocr_segm_my:latest",
+    "entry_point": "python run.py"
+}
