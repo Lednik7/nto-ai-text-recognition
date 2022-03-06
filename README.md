@@ -22,12 +22,12 @@
 **Optical Character Recognition (OCR)**
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Lednik7/nto-ai-text-recognition/blob/main/train/ocr_model.ipynb)
 
-- архитектура CRNN с бекбоном Resnet-34, предобученным на топ 1 модели соревнования [Digital Peter](https://github.com/sberbank-ai/digital_peter_aij2020) + аугментации
+- архитектура CRNN с бекбоном Resnet-34, предобученным на топ 1 модели соревнования [Digital Peter](https://github.com/sberbank-ai/digital_peter_aij2020)
 
 **Beam Search**
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Lednik7/nto-ai-text-recognition/blob/main/dataset/make_kenlm_dataset_latest.ipynb)
 
-- модель [KenLM](https://github.com/kpu/kenlm), обученная на данных сорвенования [Feedback](https://www.kaggle.com/c/feedback-prize-2021/data ) + задачи с тектом из Решу ОГЭ/ЕГЭ, а также [CTCDecoder](https://github.com/parlance/ctcdecode)
+- модель [KenLM](https://github.com/kpu/kenlm), обученная на данных сорвенования [Feedback](https://www.kaggle.com/c/feedback-prize-2021/data ), Решу ОГЭ/ЕГЭ, а также [CTCDecoder](https://github.com/parlance/ctcdecode)
 
 ### Ресурсы & Submit
 ---
@@ -35,4 +35,14 @@
 
 Мы не гарантируем поддержку сабмита всё время, поэтому предоставляем 2 ссылки:
 [Google Drive](https://drive.google.com/file/d/13jbbnSuwn5g4ml_DIcvDm7AI1dMS8j4L/view?usp=sharing) и 
-[Yandex Drive](https://storage.yandexcloud.net/datasouls-ods/submissions/e7c3d807-0f20-4003-9935-977432b4d615/14eafde9/sub_8%281%29.zip)
+[Yandex](https://storage.yandexcloud.net/datasouls-ods/submissions/e7c3d807-0f20-4003-9935-977432b4d615/14eafde9/sub_8%281%29.zip)
+
+### Цитирование
+```BibTeX
+@misc{nto-ai-text-recognition,
+  author =       {Arseniy Shahmatov and Gerasomiv Maxim},
+  title =        {notebook-recognition},
+  howpublished = {\url{https://github.com/Lednik7/nto-ai-text-recognition}},
+  year =         {2022}
+}
+```
