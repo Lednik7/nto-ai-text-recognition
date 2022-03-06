@@ -1,0 +1,11 @@
+numpy==1.20.3
+
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.9.0+cu111
+torchvision==0.10.0+cu111
+
+opencv-python==4.5.2.52
+shapely==1.8.0
+
+--find-links https://dl.fbaipublicfiles.com/detectron2/wheels/cu111/torch1.9/index.html
+detectron2
